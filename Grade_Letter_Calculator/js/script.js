@@ -6,16 +6,17 @@
  */
 
 //Variables
-
+//Variable for the number grade
 var gradePercent;
 
 //Input
-
-gradePercent = prompt("Please enter your grade percentage.");
+//Prompts user to input number grade
+gradePercent = Number(prompt("Please enter your grade percentage."));
 
 
 //Equation
 
+//Takes input gives you output accordingly
 if (gradePercent <= 69){
     console.log("You have a %" + gradePercent + ", which means you have earned a(n) F in the class!");
 }else if (gradePercent <= 72){
